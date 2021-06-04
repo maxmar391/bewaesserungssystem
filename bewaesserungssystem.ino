@@ -7,9 +7,9 @@ int pumpeTopf2Pin = 6;
 int pumpeTopf3Pin = 7;
 
 //Unterhalb dieser Sensorwerte wird nicht gegossen
-int sollTopf1 = 400;
-int sollTopf2 = 400;
-int sollTopf3 = 400;
+int sollTopf1 = 440;
+int sollTopf2 = 440;
+int sollTopf3 = 440;
 
 //Anfangswerte der Sensorsignale
 int istTopf1 = 700;
@@ -20,7 +20,7 @@ int istTopf3 = 700;
 unsigned long Wartezeit = 60000;
 
 //Solang wird bei zu trockenem Boden gepumpt
-int Pumpzeit = 3000;
+int Pumpzeit = 4000;
 
 void setup() {
   
@@ -54,11 +54,11 @@ void loop() {
   //istTopf3 = analogRead(sensorTopf3Pin);
   
   //Werte seriell ausgeben
-  Serial.print("Wasser Topf 1: ");
+  Serial.print("Sensorwert Topf 1: ");
   Serial.println(istTopf1);
-  Serial.print("Wasser Topf 2: ");
+  Serial.print("Sensorwert Topf 2: ");
   Serial.println(istTopf2);
-  //Serial.print("Wasser Topf 3: ");
+  //Serial.print("Sensorwert Topf 3: ");
   //Serial.println(istTopf3);    
 
   //bei Bedarf pumpen
