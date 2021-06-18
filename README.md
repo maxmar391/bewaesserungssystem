@@ -20,6 +20,7 @@ The project is derived and inspired from the German "Make" magazine. Their proje
 * capacitive soil moisture sensors
 * USB power supply, 5 V DC, 1 A (similar to a phone charger)
 * Mini USB cable (to power everything via the Arduino Nano)
+* 6 mm diameter plastic hose
 
 
 
