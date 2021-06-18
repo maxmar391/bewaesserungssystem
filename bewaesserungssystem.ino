@@ -1,10 +1,10 @@
-int sensorTopf1Pin = A1;
-int sensorTopf2Pin = A2;
-int sensorTopf3Pin = A3;
+const int sensorTopf1Pin = A1;
+const int sensorTopf2Pin = A2;
+const int sensorTopf3Pin = A3;
 
-int pumpeTopf1Pin = 5;
-int pumpeTopf2Pin = 6;
-int pumpeTopf3Pin = 7;
+const int pumpeTopf1Pin = 5;
+const int pumpeTopf2Pin = 6;
+const int pumpeTopf3Pin = 7;
 
 //Unterhalb dieser Sensorwerte wird nicht gegossen
 int sollTopf1 = 440;
